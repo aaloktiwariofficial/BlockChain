@@ -20,7 +20,7 @@ class Block{
             timestamp,
             lastHash,
             data,
-            hash:createHash(timestamp,lastHash,data)
+            hash:createHash(timestamp,lastHash,data)        
         });
     }
 }
